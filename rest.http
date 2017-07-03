@@ -32,3 +32,5 @@ POST http://localhost:3300/api/proxy
 ###
 
 ###
+
+GET https://management.azure.com/subscriptions?api-version=2014-06-01

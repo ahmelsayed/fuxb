@@ -15,13 +15,9 @@ export function getResources(_: Request, res: Response) {
 }
 
 export function getRuntimeVersion(_: Request, res: Response) {
-    res.json({
-        name: 'getRuntimeVersion'
-    });
+    res.json('~1');
 }
 
 export function getRoutingVersion(_: Request, res: Response) {
-    res.json({
-        name: 'getRoutingVersion'
-    });
+    res.json('~1');
 }
